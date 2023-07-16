@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 22vh 71vh 7vh;
+
+}
+
+.head {
+    background-color: #dabbdf;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7vh;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    background-color: #f4eff5
+    
+
+}
+
+.mainPageBody {
+    background-color: #c9c9c9;
+    display: flex;
+}
+.footer {
+    background-color: #c9c9c9;
+}
+
+.btn {
+    width: 10vw;
+    height: 9vh;
+    margin-right: 9vw;
+    -webkit-box-shadow: -1px 1px 15px 0px #000000; 
+    box-shadow: -1px 1px 15px 0px #000000;
+    background-color: #c9c9c9;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    
+}
+
+.library {
+    margin-left: 9vw;
+
+}
+
+.addBook {
+    display: flex;
+    flex: auto;
+    height: 10vh;
+    justify-content: center;
+    padding-top: 6vh;
+    font-size: 1.8rem;
+    margin-left: 42vw;
+    font-weight: bold;
+    height: 7vh;
+    margin-top: 2vh;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+:hover.addBook {
+    background-color: #a3a1a3;
+}
