@@ -39,7 +39,10 @@ body {
     background-color: #c9c9c9;
     font-size: 1.4rem;
     border-radius: 1rem;
-    
+}
+
+:active.btn {
+    background-color: #a3a1a3;
 }
 
 .library {
