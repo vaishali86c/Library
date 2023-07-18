@@ -16,7 +16,7 @@
     </div>
 
     <div class="mainPageBody">
-            <p><span class="body addBook"> + Add Book</span></p>
+            <p><span class="body addBook" id="addBookButton"> + Add Book</span></p>
     </div>
 
     <footer class="footer">
@@ -27,9 +27,9 @@
 
     <!-- ADD BOOK FORM FILL DETAILS -->
 
-    <div>
+    <div class="addBookForm" id="addBookForm">
         <div>
-            <p>Add new book</p>
+            <p class="formHead">Add new book</p>
         </div>
         <div>
             <label for="title"></label>
@@ -37,14 +37,14 @@
         </div>
         <div>
             <label for="author"></label>
-            <input type="text" id="pages" placeholder="Author"> 
+            <input type="text" id="author" placeholder="Author"> 
         </div>
         <div>
             <label for="pages"></label>
             <input type="number" id="pages" placeholder="Pages"> 
         </div>
         <div>
-            <label for="read">Have you read it ?</label>
+            <label for="read" id="checkbox">Have you read it ?</label>
             <input type="checkbox" id="read">
         </div>
         <div>

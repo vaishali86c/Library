@@ -67,3 +67,58 @@ body {
 :hover.addBook {
     background-color: #a3a1a3;
 }
+
+.addBookForm {
+    background-color: #796979;
+    width: 20vw;
+    height: 45vh;
+    border-radius: 3rem;
+
+    position: absolute;
+    right: 40vw;
+    top: 36vh;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.formHead {
+    font-size: x-large;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+
+#title {
+    width: 16vw;
+    height: 4vh;
+    background-color: #f4eff5
+}
+
+#author {
+    width: 16vw;
+    height: 4vh;
+    background-color: #f4eff5
+}
+
+#pages {
+    width: 16vw;
+    height: 4vh;
+    background-color: #f4eff5
+}
+#checkbox {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.submitBtn {
+    background-color: #c9c9c9;
+    border: solid black;
+    border-radius: 0.4rem;
+    height: 5vh;
+    width: 9vw;
+}
+:active.submitBtn {
+    background-color: #a3a1a3;
+}
